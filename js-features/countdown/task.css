@@ -1,0 +1,11 @@
+#status {
+  white-space: nowrap;
+  /* font-family: monospace; 
+  font-size: 24px; */
+}
+
+#timer {
+  display: inline-block;
+  min-width: 80px;
+  text-align: right;
+}
