@@ -21,4 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
             console.warn('Не удалось сохранить в localStorage:', e);
         }
     });
+
+    clearBtn.addEventListener('click', () => {
+        textarea.value = '';
+        try {
+            localStorage.removeItem(STORAGE_KEY);
+        } catch (e) {
+            console.warn('Не удалось очистить localStorage:', e);
+        }
+    });
 });

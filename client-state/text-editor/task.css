@@ -8,3 +8,19 @@ textarea {
   border: 1px solid #e2e2e2;
   box-sizing: border-box;
 }
+
+.clear-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-family: Golos, Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #140101;
+  background-color: #530fac;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color .2s ease;
+}
+
+.clear-btn:hover {
+  background-color: #eaeaea;
+}
