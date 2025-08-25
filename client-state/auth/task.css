@@ -45,3 +45,12 @@
   display: block;
   text-align: center;
 }
+
+.btn_logout {
+  background-color: #d33;
+  margin-top: 10px;
+}
+
+.btn_logout:hover {
+  background-color: #b22;
+}
